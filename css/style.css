@@ -219,6 +219,8 @@ body a:hover,body a:focus{
 .logo {
     float: left;
     text-align: center;
+
+
 }
 .logo h1 {
     font-size: 3.5em;
@@ -575,6 +577,7 @@ p {
 /*-- //more buttons --*/
 .hire-w3lgrids {
     margin-top: 2.5em;
+	margin-right: 60px;
 }
 a.wthree-more {
     padding: 0 2.5em;
