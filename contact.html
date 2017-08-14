@@ -68,23 +68,20 @@
 			<div class="contact-agileinfo">
 				<div class="col-md-7 w3agile-contact-grids">
 					<div class="ctact-w3left">
-						<form action="mailto:dairolrpichardo90@yahoo.com" method="POST" enctype="multipart/form-data">
+						<form action="email_send.php" method="post">
 							<span>
 								<i>Name</i>
-								<input type="text" name="dest_email" value="dairolrpichardo90@yahoo.com" style="display: none">
-								<input type="text" name="Name" placeholder="" required="">
+
+								<input type="text" name="name" placeholder="" required="">
 							</span>
 							<span>
 								<i>Email</i>
-								<input type="email" name="Email" placeholder="" required="">
+								<input type="email" name="email" placeholder="" required="">
 							</span>
-							<span>
-								<i>Subject</i>
-								<input type="text" name="Subject" placeholder="" required="">
-							</span>
+
 							<span>
 								<i>Message</i>
-								<textarea name="Message" placeholder="" required=""></textarea>
+								<textarea name="msg" placeholder="" required=""></textarea>
 							</span>
 							<div class="w3_submit">
 								<input type="submit" value="Send">
@@ -141,6 +138,9 @@
 		  $(this).toggleClass('navicon--active');
 		  $('.toggle').toggleClass('toggle--active');
 		});
+
+
+
 	</script>
 	<!-- //menu-js -->
 	<!-- Bootstrap core JavaScript
